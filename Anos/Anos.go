@@ -1,8 +1,9 @@
-package main
+package Anos
 
 import "fmt"
 
-func main() {
+//Bissexto Mostra Anos Bissextos entre 2020 e 2051 e seus meses
+func Bissexto() {
 	for ano := 2020; ano < 2051; ano++ {
 		texto := "é Bissexto!"
 		if ano%4 == 0 {
